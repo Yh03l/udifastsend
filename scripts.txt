@@ -1,0 +1,27 @@
+copy .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan db:seed --class=PermissionTableSeeder
+php artisan db:seed --class=CreateAdminUserSeeder
+
+php artisan make:migration create_paises_table
+php artisan make:migration create_ciudades_table
+php artisan make:migration create_empresas_table
+php artisan make:migration create_sucursales_table
+php artisan make:migration create_turnos_table
+php artisan make:migration create_tipos_identificaciones_table
+php artisan make:migration create_empleados_table
+php artisan make:migration create_tipos_envios_table
+php artisan make:migration create_tipos_encomiendas_table
+php artisan make:migration create_clientes_table
+php artisan make:migration create_encomiendas_table
+php artisan make:migration create_tarifas_encomiendas_table
+php artisan make:migration create_detalles_encomiendas_table
+php artisan make:migration create_estados_encomiendas_table
+php artisan make:migration create_bitacora_encomiendas_table
+
+php artisan code:models
+php artisan make:factory Encomienda --model=Encomienda
+php artisan make:factory Empleado --model=Empleado
+php artisan db:seed --class=DatabaseSeeder
+php artisan make:livewire encomienda/envio

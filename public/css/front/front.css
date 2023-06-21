@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+.txtRosa {
+    color: #ed6d7e !important;
+}
+
+.txtAzul {
+    color: #1d4f90;
+}
+
+.txtGris {
+    color: #bebebe;
+}
+
+.btnRosa {
+    background-color: #ed6d7e;
+    border-color: white;
+}
+
+.btnAzul {
+    background-color: #1d4f90;
+    border-color: white;
+}
+
+.bg-azul {
+    background-color: #1d4f90 !important;
+}
+
+.bg-rosa {
+    background-color: #ed6d7e !important;
+}
+
+.border-rosa {
+    border-color: #ed6d7ea5 !important;
+}
+
+.border-azul {
+    border-color: #1d4f90 !important;
+}
+
+.btn-rosa {
+    color: #fff;
+    background-color: #ed6d7e;
+    border-color: #ed6d7e;
+}
+
+.btn-rosa:hover {
+    color: #fff;
+    background-color: #ff8393;
+    border-color: #f94960;
+}
+
+.btn-rosa:focus,
+.btn-rosa.focus {
+    color: #fff;
+    background-color: #ed6d7e;
+    border-color: #ed6d7e;
+    box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+}
+
+.btn-rosa.disabled,
+.btn-rosa:disabled {
+    color: #fff;
+    background-color: #f495a2;
+    border-color: #f495a2;
+}
+
+.btn-rosa:not(:disabled):not(.disabled):active,
+.btn-rosa:not(:disabled):not(.disabled).active,
+.show>.btn-rosa.dropdown-toggle {
+    color: #fff;
+    background-color: #ed6d7e;
+    border-color: #ed6d7e;
+}
+
+.btn-rosa:not(:disabled):not(.disabled):active:focus,
+.btn-rosa:not(:disabled):not(.disabled).active:focus,
+.show>.btn-rosa.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+}
+
+.btn-azul {
+    color: #fff;
+    background-color: #1d4f90;
+    border-color: #1d4f90;
+}
+
+.btn-azul:hover {
+    color: #fff;
+    background-color: #13488d;
+    border-color: #1d4f90;
+}
+
+.btn-azul:focus,
+.btn-azul.focus {
+    color: #fff;
+    background-color: #194885;
+    border-color: #1d4f90;
+    box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+}
+
+.btn-azul.disabled,
+.btn-azul:disabled {
+    color: #fff;
+    background-color: #4372af;
+    border-color: #4372af;
+}
+
+.btn-azul:not(:disabled):not(.disabled):active,
+.btn-azul:not(:disabled):not(.disabled).active,
+.show>.btn-azul.dropdown-toggle {
+    color: #fff;
+    background-color: #1d4f90;
+    border-color: #1d4f90;
+}
+
+.btn-azul:not(:disabled):not(.disabled):active:focus,
+.btn-azul:not(:disabled):not(.disabled).active:focus,
+.show>.btn-azul.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+}
+
+.nav-pills .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: .25rem
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ed6d7e
+}
